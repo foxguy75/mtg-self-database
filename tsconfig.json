@@ -1,0 +1,6 @@
+{
+  "files": ["src/main.ts"],
+  "compilerOptions": {
+    "module": "commonjs"
+  }
+}

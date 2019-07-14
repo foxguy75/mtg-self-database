@@ -1,0 +1,35 @@
+{
+  "name": "mtg-self-database",
+  "version": "0.0.1",
+  "description": "A database application for cataloging your magic cards. ",
+  "main": "index.js",
+  "types": "./",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxguy75/mtg-self-database.git"
+  },
+  "keywords": [
+    "mtg",
+    "magic",
+    "database"
+  ],
+  "author": "Ben Camburn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foxguy75/mtg-self-database/issues"
+  },
+  "homepage": "https://github.com/foxguy75/mtg-self-database#readme",
+  "devDependencies": {
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "prettier": "1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
